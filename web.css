@@ -1,0 +1,41 @@
+body		{
+	background: rgb(0, 4, 255);
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;	
+}
+
+h1		{
+	font-weight: bolder;
+    color: rgb(255, 238, 0);
+}
+
+	.play1 , .play2
+	{
+		background: rgb(255, 187, 232);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+#player1_name , #player2_name		{
+	display: inline-block;
+	margin-left: 20px;
+	width: 90%;
+}
+#word		{
+	width: 60%;
+}
+#word_display		{
+	letter-spacing: 5px;
+}
+
+#player_question , #player_answer		{
+ color: white;   
+}
+#output			{
+background: #AA4465;
+border-radius: 10px;
+border-top: 10px solid #90ffb2 ;
+padding: 10px;
+float: none;
+text-align: left;
+}
